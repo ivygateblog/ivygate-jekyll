@@ -15,6 +15,8 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://www.ivygateblog.com" # the base hostname & protocol for your site
 twitter_username: ivygate
 github_username:  ivygateblog
+gems: [jekyll-paginate]
 
 # Build settings
 markdown: kramdown
+paginate: 10
